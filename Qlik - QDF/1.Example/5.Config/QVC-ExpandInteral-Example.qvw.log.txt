@@ -1,0 +1,14 @@
+﻿Qvc.LogMessage_Level,Qvc.LogMessage
+INFO,00001 5/7/2018 10:35:57 PM; TableStats Begin: >>Before JOIN
+INFO,"00002 5/7/2018 10:35:57 PM; Table=Orders, Rows=830, Fields=14"
+INFO,"00003 5/7/2018 10:35:57 PM; Table=OrderDetail, Rows=2,155, Fields=6"
+INFO,"00004 5/7/2018 10:35:57 PM; Table=CommissionRates, Rows=8,528, Fields=2"
+INFO,"00005 5/7/2018 10:35:57 PM; Table=Qvc.LogTable, Rows=4, Fields=2"
+INFO,00006 5/7/2018 10:35:57 PM; 4 tables listed.
+INFO,00007 5/7/2018 10:35:57 PM; TableStats End: >>Before JOIN
+INFO,00008 5/7/2018 10:35:57 PM; TableStats Begin: >>After JOIN
+INFO,"00009 5/7/2018 10:35:57 PM; Table=CommissionRates, Rows=480, Fields=2"
+INFO,00010 5/7/2018 10:35:57 PM; 1 tables listed.
+INFO,00011 5/7/2018 10:35:57 PM; TableStats End: >>After JOIN
+WARNING,00012 5/7/2018 10:35:57 PM; This is a warning message. You will not be warned again
+ERROR,00013 5/7/2018 10:35:57 PM; This be an Error message

@@ -1,0 +1,125 @@
+Hospital ID,Hospital Name,Hospital Address Number,Hospital Address Street,Hospital Address Full,Hospital City,Hospital Zip Code,Hospital County,Hospital State,Hospital Country,Hospital Latitude,Hospital Longitude
+111000,General Hospital,5449,N Camac St,5449 N Camac St,Philadelphia,19141,Philadelphia,PA,US,40.0365759,-75.143455
+112000,All Saints Hospital,519,E Evergreen Ave,519 E Evergreen Ave,Glenside,19038,Montgomery,PA,US,40.082333,-75.2023997
+114000,Burn Brae Hospital,836,Cambridge Cir,836 Cambridge Cir,Primos,19018,Delaware,PA,US,39.9265012,-75.3029643
+115000,Albert Einstein Medical Center,1749,I- 676,1749 I- 676,Philadelphia,19103,Philadelphia,PA,US,39.9578906,-75.1682336
+9900006,Dufur Hospital,816,Nesbitt Rd,816 Nesbitt Rd,Ambler,19002,Montgomery,PA,US,40.1876085,-75.1890632
+1173915,Eastern State School and Hospital,3671,Lincoln Hwy,3671 Lincoln Hwy,Feasterville-Trevose,19053,Bucks,PA,US,40.1370543,-74.9654458
+1174211,Embreeville State Hospital,1809,W Strasburg Rd,1809 W Strasburg Rd,West Chester,19382,Chester,PA,US,39.9462191,-75.7263303
+1174334,Eugenia Hospital,4156,Presidential Dr,4156 Presidential Dr,Lafayette Hill,19444,Montgomery,PA,US,40.0953883,-75.243512
+1175257,Friends Hospital,5200,Pennway St,5200 Pennway St,Philadelphia,19124,Philadelphia,PA,US,40.0258962,-75.1034809
+1175566,Germantown Community Health Center,551,E Penn St,551 E Penn St,Philadelphia,19144,Philadelphia,PA,US,40.039635,-75.1595035
+1176659,Haverford State Hospital,227,Marple Rd,227 Marple Rd,Haverford,19041,Delaware,PA,US,39.9948335,-75.3385227
+1177282,Holy Redeemer Hospital and Medical Center,1582,Huntingdon Pike,1582 Huntingdon Pike,Huntingdon Valley,19006,Montgomery,PA,US,40.1094681,-75.0820939
+1177997,Jeanes Hospital,7626,Central Ave,7626 Central Ave,Philadelphia,19111,Philadelphia,PA,US,40.0706468,-75.0878323
+1178371,Kennedy Hospital,5424,Langdon St,5424 Langdon St,Philadelphia,19124,Philadelphia,PA,US,40.035945,-75.0921184
+1178876,Main Line Hospital Lankenau,1059,Woodcircle Dr,1059 Woodcircle Dr,Wynnewood,19096,Montgomery,PA,US,39.9881844,-75.2621981
+1180908,Memorial Hospital,1226,E High St,1226 E High St,Pottstown,19464,Montgomery,PA,US,40.2431529,-75.6229622
+1180940,Mercy Hospital,1513,S 51st St,1513 S 51st St,Philadelphia,19143,Philadelphia,PA,US,39.9390018,-75.2143471
+1181462,Montgomery Hospital,1336,Locust St,1336 Locust St,Norristown,19401,Montgomery,PA,US,40.1244236,-75.3363794
+1182191,Nazareth Hospital,2663,Holme Ave,2663 Holme Ave,Philadelphia,19152,Philadelphia,PA,US,40.0590935,-75.0417895
+1182508,Norristown State Hospital,1058,Sterigere St,1058 Sterigere St,Norristown,19401,Montgomery,PA,US,40.1324657,-75.3488405
+1182665,Temple East Northeastern Hospital,3200,Tulip St,3200 Tulip St,Philadelphia,19134,Philadelphia,PA,US,39.989697,-75.1064727
+1182671,Northern Liberties Hospital,800,N Franklin St,800 N Franklin St,Philadelphia,19123,Philadelphia,PA,US,39.9656683,-75.1496215
+1183339,Eastern Regional Medical Center,1299,E Wyoming Ave,1299 E Wyoming Ave,Philadelphia,19120,Philadelphia,PA,US,40.018957,-75.0993896
+1183539,Pennsylvania Hospital,815,Spruce St,815 Spruce St,Philadelphia,19107,Philadelphia,PA,US,39.94555,-75.15533
+1183659,Philadelphia State Hospital,2713,Commerce Way,2713 Commerce Way,Philadelphia,19154,Philadelphia,PA,US,40.111777,-74.9801688
+1185028,Riddle Memorial Hospital,474,Hampton,474 Hampton,Media,19063,Delaware,PA,US,39.9124466,-75.4304687
+1185151,Riverview Hospital,767,Sandy St,767 Sandy St,Norristown,19401,Montgomery,PA,US,40.1117753,-75.3271269
+1185641,Bryn Mawr Rehabilitation Hospital,41,Joanna Dr,41 Joanna Dr,Malvern,19355,Chester,PA,US,40.010274,-75.5286791
+1185692,Sacred Heart Hospital,1452,Green St,1452 Green St,Norristown,19401,Montgomery,PA,US,40.1231638,-75.3315709
+1185733,Saint Agnes Long Term Care and Triumph Hospital Philadelphia,1900,S 15th St,1900 S 15th St,Philadelphia,19145,Philadelphia,PA,US,39.9264005,-75.1704115
+1185874,Saint Christophers Hospital,2600,N Lawrence St,2600 N Lawrence St,Philadelphia,19133,Philadelphia,PA,US,39.9906681,-75.1396211
+1186243,Saint Josephs Hospital,916,N 16th St,916 N 16th St,Philadelphia,19130,Philadelphia,PA,US,39.971523,-75.1629548
+1186301,Girard Medical Center,1249,N 8th St,1249 N 8th St,Philadelphia,19122,Philadelphia,PA,US,39.9713729,-75.1495837
+1186426,Saint Marys Hospital,1644,E Eyre St,1644 E Eyre St,Philadelphia,19125,Philadelphia,PA,US,39.9756682,-75.1318429
+1188619,Stetson Hospital,1709,N Orianna St,1709 N Orianna St,Philadelphia,19122,Philadelphia,PA,US,39.9773348,-75.14101
+1189309,Taylor Hospital,50,Bartol Ave,50 Bartol Ave,Ridley Park,19078,Delaware,PA,US,39.8778513,-75.3201922
+1189359,Temple University Hospital,3400,N Carlisle St,3400 N Carlisle St,Philadelphia,19140,Philadelphia,PA,US,40.0054688,-75.1526983
+1190062,United States Naval Hospital,1666,Hartranft St,1666 Hartranft St,Philadelphia,19145,Philadelphia,PA,US,39.907613,-75.1790676
+1191087,West Park Hospital,2614,Daphne Rd,2614 Daphne Rd,Philadelphia,19131,Philadelphia,PA,US,39.9998348,-75.2085131
+1191519,Wills Hospital,1601,Spring Garden St,1601 Spring Garden St,Philadelphia,19130,Philadelphia,PA,US,39.9631683,-75.1651779
+1205102,Johnson County Home,1626,Black Rock Rd,1626 Black Rock Rd,Royersford,19468,Montgomery,PA,US,40.1639924,-75.508242
+1205541,Coatesville Veterans Affairs Medical Center,1451,Blackhorse Hill Rd,1451 Blackhorse Hill Rd,Coatesville,19320,Chester,PA,US,39.9985232,-75.7972152
+1207638,Rolling Hill Hospital,583,Glenmore Ave,583 Glenmore Ave,Elkins Park,19027,Montgomery,PA,US,40.0817775,-75.1046181
+1207653,Bryn Mawr Hospital,145,Lindsay Ave,145 Lindsay Ave,Bryn Mawr,19010,Montgomery,PA,US,40.0189066,-75.3212643
+1207694,Abington Memorial Hospital,1225,Highland Ave,1225 Highland Ave,Abington,19001,Montgomery,PA,US,40.1190874,-75.1209663
+1207767,Grand View Hospital,798,Lawn Ave,798 Lawn Ave,Sellersville,18960,Bucks,PA,US,40.3630786,-75.3266812
+1207786,Booth Memorial Hospital,6009,Drexel Rd,6009 Drexel Rd,Philadelphia,19131,Philadelphia,PA,US,39.9895571,-75.2482372
+1207787,Institute of Pennsylvania,1,N 48th St,1 N 48th St,Philadelphia,19139,Philadelphia,PA,US,39.9606684,-75.2179582
+1207788,Misericordia Hospital,5249,Rodman St,5249 Rodman St,Philadelphia,19143,Philadelphia,PA,US,39.9512239,-75.2282366
+1207811,Perkiomen Valley Convalescent Home,199,Koons St,199 Koons St,Collegeville,19426,Montgomery,PA,US,40.2276027,-75.4579561
+1207961,Lawndale Community Hospital,500,Devereaux Ave,500 Devereaux Ave,Philadelphia,19111,Philadelphia,PA,US,40.0467782,-75.0979517
+1207962,Protestant Home,6100,Lovatt Ter,6100 Lovatt Ter,Philadelphia,19111,Philadelphia,PA,US,40.0401116,-75.0896182
+1207963,Oxford Hospital,549,Kerper St,549 Kerper St,Philadelphia,19111,Philadelphia,PA,US,40.0528892,-75.089618
+1208007,Childrens Heart Hospital,3944,Conshohocken Ave,3944 Conshohocken Ave,Philadelphia,19131,Philadelphia,PA,US,40.0034458,-75.2104575
+1208008,Philadelphia Osteopathic Hospital,4080,Monument Rd,4080 Monument Rd,Philadelphia,19131,Philadelphia,PA,US,40.0034458,-75.2129576
+1208033,Chestnut Hill Hospital,8813,Germantown Ave,8813 Germantown Ave,Philadelphia,19118,Philadelphia,PA,US,40.0794677,-75.2116187
+1209061,Highland Medical Center,2012,Gap Newport Pike,2012 Gap Newport Pike,Cochranville,19330,Chester,PA,US,39.8859402,-75.9063349
+1212488,Eagleville Hospital Rehabilitation Center,91,Eagleville Rd,91 Eagleville Rd,Norristown,19403,Montgomery,PA,US,40.1556613,-75.4129612
+1212606,Coatesville VA Medical Center,941,N Caln Rd,941 N Caln Rd,Coatesville,19320,Chester,PA,US,40.0017728,-75.7913351
+1214068,Mercy Fitzgerald Hospital,66,Herford Pl,66 Herford Pl,Lansdowne,19050,Delaware,PA,US,39.926656,-75.2695196
+1214073,Kindred Hospital Havertown,2045,Old W Chester Pike,2045 Old W Chester Pike,Havertown,19083,Delaware,PA,US,39.9750693,-75.333763
+1214105,Springfield Hospital,275,W Thompson Ave,275 W Thompson Ave,Springfield,19064,Delaware,PA,US,39.9226199,-75.3500121
+1214123,Delaware County Memorial Hospital,2157,Keystone Ave,2157 Keystone Ave,Drexel Hill,19026,Delaware,PA,US,39.9546554,-75.283437
+2043671,Buckingham Valley Rehabilitation Nursing Center,735,Durham Rd,735 Durham Rd,Furlong,18925,Bucks,PA,US,40.2967739,-75.009891
+2114827,Hortense T Moss Health Center,4128,Henry Ave,4128 Henry Ave,Philadelphia,19129,Philadelphia,PA,US,40.0225,-75.1936111
+2115036,Worth Health Center,160,N Chester Rd,160 N Chester Rd,Swarthmore,19081,Delaware,PA,US,39.9044444,-75.3516667
+2115299,Health Services Building,52,N Ithan Ave,52 N Ithan Ave,Villanova,19085,Delaware,PA,US,40.035,-75.3369444
+2115322,Reverend Thomas C Middleton Hall,891,E Lancaster Ave,891 E Lancaster Ave,Villanova,19085,Delaware,PA,US,40.0361111,-75.3475
+2347150,Brandywine Hospital,1522,Fisherville Rd,1522 Fisherville Rd,Coatesville,19320,Chester,PA,US,40.0101412,-75.7861376
+2347209,Bryn Mawr Rehabilitation Center,21,Joanna Dr,21 Joanna Dr,Malvern,19355,Chester,PA,US,40.0109,-75.5302
+2347226,Bucks County Hospital,262,Newtown Rd,262 Newtown Rd,Warminster,18974,Bucks,PA,US,40.1849,-75.0792
+2347320,Community Hospital of Chester,2600,Us Hwy 13,2600 Us Hwy 13,Chester,19013,Delaware,PA,US,39.838,-75.3933
+2347642,Allegheny University City Avenue Hospital,4226,E City Ave,4226 E City Ave,Philadelphia,19131,Philadelphia,PA,US,40.0042,-75.2186
+2347643,Allegheny University Elkins Park Hospital,424,Cottman Ave,424 Cottman Ave,Elkins Park,19027,Montgomery,PA,US,40.0726,-75.1056
+2347760,Hahnemann University Hospital,200,N Broad St,200 N Broad St,Philadelphia,19102,Philadelphia,PA,US,39.9570265,-75.1633291
+2347922,Holy Redeemer Health System,656,Old Welsh Rd,656 Old Welsh Rd,Huntingdon Valley,19006,Montgomery,PA,US,40.1219,-75.0691
+2347926,Home for Incurable Cancer,4249,Old York Rd,4249 Old York Rd,Philadelphia,19140,Philadelphia,PA,US,40.0175,-75.1473
+2347934,Horsham Clinic,706,Daventry Way,706 Daventry Way,Ambler,19002,Montgomery,PA,US,40.1876039,-75.1896487
+2348020,Crozer - Chester Medical Center,418,W 15th St,418 W 15th St,Chester,19013,Delaware,PA,US,39.8561196,-75.3680043
+2348077,Foundations Behavioral Health,66,Vaux Dr,66 Vaux Dr,Doylestown,18901,Bucks,PA,US,40.3009453,-75.1553962
+2348111,Doylestown Hospital,571,Us Hwy 202,571 Us Hwy 202,Doylestown,18901,Bucks,PA,US,40.3059841,-75.1461312
+2348352,Hospital of Fox Chase Cancer Center,7600,Burholme Ave,7600 Burholme Ave,Philadelphia,19111,Philadelphia,PA,US,40.0711027,-75.0911574
+2348376,Aria Frankford Hospital,1560,Harrison St,1560 Harrison St,Philadelphia,19124,Philadelphia,PA,US,40.0197784,-75.0816827
+2348381,Aria Health Hospital Torresdale Campus,3860,Red Lion Rd,3860 Red Lion Rd,Philadelphia,19114,Philadelphia,PA,US,40.0716705,-74.9829705
+2348660,Lower Bucks Hospital,600,Harrison St,600 Harrison St,Bristol,19007,Bucks,PA,US,40.1051386,-74.8672207
+2348748,Markley Medical Center,1670,Eva Ln,1670 Eva Ln,Norristown,19401,Montgomery,PA,US,40.1324,-75.3356
+2348844,Abington - Lansdale Hospital,94,Medical Campus Dr,94 Medical Campus Dr,Lansdale,19446,Montgomery,PA,US,40.2501521,-75.2715588
+2348892,Mercy Hospital of Philadelphia,5349,Larchwood Ave,5349 Larchwood Ave,Philadelphia,19143,Philadelphia,PA,US,39.9516025,-75.229643
+2348918,Medical College of Pennsylvania Hospital,2249,Ruffner,2249 Ruffner,Philadelphia,19140,Philadelphia,PA,US,40.0135,-75.1704
+2348936,Suburban Community Hospital,2740,Dekalb Pike,2740 Dekalb Pike,Norristown,19401,Montgomery,PA,US,40.1399036,-75.3160535
+2349128,Kirkbride Center,600,N 49th St,600 N 49th St,Philadelphia,19139,Philadelphia,PA,US,39.9621715,-75.2183147
+2349307,Saint Josephs Manor Hospital,1514,Huntingdon Pike,1514 Huntingdon Pike,Huntingdon Valley,19006,Montgomery,PA,US,40.1085,-75.0837
+2349431,Sheie Eye Institute,3901,Powelton Ave,3901 Powelton Ave,Philadelphia,19104,Philadelphia,PA,US,39.9587,-75.1998
+2349578,Paoli Hospital,2,Industrial Blvd,2 Industrial Blvd,Paoli,19301,Chester,PA,US,40.0438555,-75.5016984
+2349795,Phoenixville Hospital,156,Nutt Rd,156 Nutt Rd,Phoenixville,19460,Chester,PA,US,40.1233707,-75.514967
+2349862,Pottstown Memorial Medical Center,1612,E High St,1612 E High St,Pottstown,19464,Montgomery,PA,US,40.2423816,-75.6121959
+2349867,Penn Presbyterian Medical Center,3907,Filbert St,3907 Filbert St,Philadelphia,19104,Philadelphia,PA,US,39.9580532,-75.1997281
+2349884,Protestant Home Hospital,633,Hellerman St,633 Hellerman St,Philadelphia,19111,Philadelphia,PA,US,40.0487,-75.0901
+2350033,Roxborough Memorial Hospital,500,Jamestown St,500 Jamestown St,Philadelphia,19128,Philadelphia,PA,US,40.0287166,-75.2096311
+2350120,Thomas Jefferson University Hospital,1049,Sansom St,1049 Sansom St,Philadelphia,19106,Philadelphia,PA,US,39.9491084,-75.158399
+2350222,University of Pennsylvania Hospital,3499,Spruce St,3499 Spruce St,Philadelphia,19104,Philadelphia,PA,US,39.9499555,-75.1941127
+2350401,Wills Eye Hospital,900,Walnut St,900 Walnut St,Philadelphia,19107,Philadelphia,PA,US,39.94806,-75.15618
+2350490,Warminster Hospital,222,Centennial Rd,222 Centennial Rd,Warminster,18974,Bucks,PA,US,40.185,-75.0767
+2718018,Shriners Hospitals for Children Philadelphia,3549,N Broad St,3549 N Broad St,Philadelphia,19140,Philadelphia,PA,US,40.006916,-75.1513697
+2718036,Saint John Vianney Center,149,Woodbine Rd,149 Woodbine Rd,Downingtown,19335,Chester,PA,US,40.0123618,-75.68351
+2718038,Saint Christophers Hospital for Children,3634,A St,3634 A St,Philadelphia,19134,Philadelphia,PA,US,40.0070027,-75.1263313
+2718039,Montgomery County Emergency Service,1506,Sterigere St,1506 Sterigere St,Norristown,19403,Montgomery,PA,US,40.1360524,-75.3559806
+2718040,Belmont Center for Comprehensive Treatment,4081,Ford Rd,4081 Ford Rd,Philadelphia,19131,Philadelphia,PA,US,40.0001283,-75.2148373
+2718044,Jennersville Regional Hospital,977,Lincoln St,977 Lincoln St,Lincoln University,19352,Chester,PA,US,39.8220883,-75.8877426
+2718046,Kindred Hospital Philadelphia,6149,Palmetto St,6149 Palmetto St,Philadelphia,19111,Philadelphia,PA,US,40.046081,-75.0970827
+2718050,Fairmount Behavioral Health Systems,583,Fairthorne Ave,583 Fairthorne Ave,Philadelphia,19128,Philadelphia,PA,US,40.0434243,-75.2217221
+2718060,Saint Mary Medical Center,740,Hill St,740 Hill St,Langhorne,19047,Bucks,PA,US,40.2028408,-74.9236469
+2718074,Devereux Children's Behavioral Health Center,92,Old Barn Ln,92 Old Barn Ln,Malvern,19355,Chester,PA,US,40.0084071,-75.5091949
+2718075,Chester County Hospital,588,E Marshall St,588 E Marshall St,West Chester,19380,Chester,PA,US,39.971191,-75.6019892
+2718081,Childrens Hospital of Philadelphia,583,Civic Center Blvd,583 Civic Center Blvd,Philadelphia,19104,Philadelphia,PA,US,39.9487557,-75.1938845
+2718090,Philadelphia Veteran Affairs Medical Center,468,S University Ave,468 S University Ave,Philadelphia,19104,Philadelphia,PA,US,39.9481823,-75.2002399
+2718100,Brooke Glen Behavioral Hospital,7154,Lafayette Ave,7154 Lafayette Ave,Fort Washington,19034,Montgomery,PA,US,40.1346311,-75.2158423
+2718114,Barix Clinics of Pennsylvania,661,Middletown Blvd,661 Middletown Blvd,Langhorne,19047,Bucks,PA,US,40.1809549,-74.8850228
+2718115,Saint Lukes Hospital Quakertown,1049,Park Ave,1049 Park Ave,Quakertown,18951,Bucks,PA,US,40.438061,-75.348633
+2718127,Methodist Hospital Division,2301,Broad St,2301 Broad St,Philadelphia,19148,Philadelphia,PA,US,39.9215632,-75.1699581
+2718128,Aria Health Hospital Bucks County Campus,100,Lincoln Hwy,100 Lincoln Hwy,Fairless Hills,19030,Bucks,PA,US,40.183052,-74.867443
+2718134,Kindred Hospital Delaware County,66,Herford Pl,66 Herford Pl,Lansdowne,19050,Delaware,PA,US,39.9266403,-75.2692533
+2718139,Lifecare Hospitals of Chester County,418,Convent Ln,418 Convent Ln,West Chester,19380,Chester,PA,US,39.968325,-75.600907
+2718141,Rothman Specialty Hospital,3265,Tillman Dr,3265 Tillman Dr,Bensalem,19020,Bucks,PA,US,40.1162042,-74.960517

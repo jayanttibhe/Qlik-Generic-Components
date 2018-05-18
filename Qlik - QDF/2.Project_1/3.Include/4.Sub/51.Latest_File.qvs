@@ -1,0 +1,32 @@
+/**
+@source 51.Latest_File.qvs
+Get the Latest File by Timestamp from a list of files.
+
+@param 1 File List path. Starting directory. May be relative or absolute.
+		 Format - 'C:\TEST\*.*'    --> For All files in the Folder 'TEST'
+		 Format - 'C:\TEST\A*.doc'    --> For All files in the Folder 'TEST' starting with 'A' with file ext "Doc"
+@syntax CALL Latest_File('C:\TEST\A*.doc'); 
+*/
+
+SUB Latest_File(File_Lst)
+	For each File in filelist (File_Lst)
+	All_Files:
+		Load '$(File)' as Name,
+		FileTime( '$(File)' ) as FileTime
+		Autogenerate 1;
+	Next File
+	LatestFile:
+	NoConcatenate
+		First 1	Load
+		Name,
+		FileTime
+	Resident All_Files
+	Order By FileTime DESC;
+	Drop Table All_Files
+	;
+	LET vL.Latest_File = Peek('Name',0,LatestFile)
+	;
+	Drop Table LatestFile
+	;
+END SUB
+;

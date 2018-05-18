@@ -1,0 +1,10 @@
+﻿ContainerPathName,ContainerFolderName,ContainerComments,RootPath
+Admin,0.Administration,,
+Example,1.Example,Container with basic examples,
+Proj_1,2.Project_1,Project - 1,
+Shared,99.Shared_Folders,Common content storage,
+Proj_2,3.Project_2,Project - 2,
+Proj_3,4.Project_3,Project - 3,
+,,,
+,,,
+,,,

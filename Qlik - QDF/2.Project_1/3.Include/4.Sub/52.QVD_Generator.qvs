@@ -1,0 +1,110 @@
+//Override these from Scrip or QVW
+/*
+SET vQVDPath ='C:\Jayant\Personal\_QVD Generator\';		//QVD Destination Folder Path
+SET vSource_Data ='C:\Jayant\Data\';					//Source Files Folder Path
+SET vExtract_Config ='Data_Extract_Config.xlsx';		//Extract Config File Path
+*/
+
+//$(Must_Include=..\scripts\commonroutines.txt);
+
+SUB StoreQVD		
+//QVD Storage
+	IF NoOfRows('$(TableName)')>0 then
+		TRACE Generating the QVD $(TableName)...;
+		STORE [$(TableName)] into [$(vQVDPath)$(QVDName).QVD];
+		TRACE $(TableName)Found in the source - Extraction Successful and QVD Generated;
+	ELSE
+		TRACE Source Table is Empty QVD is not Generated;
+	END IF	
+	     
+//QVD DETAILS info
+	LET vFile = '$(vQVDPath)$(QVDName).QVD';
+	LET vL.after=now();
+	QVDDETAILS:
+	LOAD 
+	   '$(QVDName).qvd' 							AS QVD_Name,
+	   '$(QVDName)' 								AS Source_Table_Name,
+	   Replace('$(FileExt)','.','')					AS Source,
+	   '$(vQVDPath)' 								AS QVD_Location,
+	   filetime('$(vQVDPath)$(QVDName).QVD') 		AS QVD_Creation_timestamp,
+	   num(filesize('$(vQVDPath)$(QVDName).QVD')/(1024*1024),'##,###.00')
+													AS [QVD_Size(MB)],
+	   qvdnoofrecords('$(vQVDPath)$(QVDName).QVD')  AS QVD_Record_Count,
+	   qvdnooffields('$(vQVDPath)$(QVDName).QVD')   AS QVD_Field_Count,	
+	   time(Timestamp('$(vL.after)') - timestamp('$(vL.before)'),'hh:mm:ss')
+	 											    AS QVD_Reload_Time				
+    AutoGenerate 1 ;
+	drop table [$(TableName)];
+END SUB
+;
+
+SUB GenerateQVD (TableName,Columns,FileExt, Load_Parm,QVDName)
+LET vL.before=now();
+IF wildmatch('$(FileExt)','*DB*','*SQL*','*ORACLE*','*SYBASE*','*ACCESS*') then
+		[$(TableName)]:
+			LOAD 
+			$(Columns)
+			//,'$(vL.before)'	AS $(QVDName)_Timestamp					
+			;
+			SQL SELECT *
+			FROM
+			[$(TableName)];
+	//QVD Storage
+	CALL StoreQVD;
+ELSE			
+	IF alt(Filesize('$(vSource_Data)$(TableName)$(FileExt)'),0) = 0 then
+		TRACE $(vSource_Data)$(TableName)$(FileExt)...Not Found in the source - Extraction FAILED;
+	ELSE
+		[$(TableName)]:
+			LOAD 
+			$(Columns)
+			//,'$(vL.before)'	AS $(QVDName)_Timestamp
+			FROM
+			[$(vSource_Data)$(TableName)$(FileExt)]($(Load_Parm));
+			CALL StoreQVD;
+	END IF
+END IF
+End SUB;	
+
+Tables:
+LOAD [Active Flag], 
+     [Entity Name],
+     [Source Entity Type], 
+     [Load Parm], 
+     [QVD Table Name]
+FROM
+$(vExtract_Config)(ooxml, embedded labels, table is Tables)
+where [Active Flag] = 1
+;
+Inner Join(Tables)
+LOAD  [Entity Name],
+	  [Columns To Load]
+FROM
+$(vExtract_Config)(ooxml, embedded labels, table is Columns)	  
+;
+
+FOR vRow = 0 TO NoOfRows('Tables') - 1
+
+     IF peek('Active Flag', vRow, 'Tables') = 1 THEN
+     
+          let vTable = peek('Entity Name', vRow, 'Tables');
+		  let vColumns = peek('Columns To Load', vRow, 'Tables');
+		  let vEntityType = peek('Source Entity Type', vRow, 'Tables');
+		  let vLoad_Parm = peek('Load Parm', vRow, 'Tables');
+		  let vQVD = peek('QVD Table Name', vRow, 'Tables');  		    
+	 call GenerateQVD(vTable,vColumns,vEntityType,vLoad_Parm, vQVD);
+          
+     END IF
+NEXT 
+
+	//Drop table Tables;
+		let vTable =;
+		let vColumns=;
+		let vEntityType =;
+		let vLoad_Parm =;
+		let vQVD =;
+		let vRow =;
+		let vFile=;
+/* 		let vQVDPath=;	
+		let vSource_Data =;
+        let vExtract_Config =; */
